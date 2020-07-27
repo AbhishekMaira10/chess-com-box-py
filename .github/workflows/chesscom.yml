@@ -19,5 +19,5 @@ jobs:
         run: python chess_com_box.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
+          GIST_ID: 3abf799df45e58a84864f4f027070c07
           CHESS_COM_USERNAME: ${{ secrets.CHESS_COM_USERNAME }}
